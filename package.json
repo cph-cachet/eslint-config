@@ -1,6 +1,6 @@
 {
   "name": "@cph-cachet/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our ESLint config to use across our Javascript and Typescript projects",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/cph-cachet/eslint-config-cachet/issues"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prettier": "^4.2.1",
