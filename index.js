@@ -7,7 +7,7 @@ module.exports = {
   },
   extends: ['airbnb', 'airbnb-typescript', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
-   plugins: [
+  plugins: [
     'unused-imports',
     'prettier',
     'eslint-plugin-prefer-arrow',
@@ -49,6 +49,17 @@ module.exports = {
     'guard-for-in': 'off',
     'no-restricted-syntax': 'off',
     'eol-last': ['error', 'always'],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "": "never"
+      }
+    ]
   },
   overrides: [
     {
