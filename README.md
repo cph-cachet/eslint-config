@@ -10,6 +10,11 @@ To install this package, run the following command:
 bun i -D @carp-dk/eslint-config
 ```
 
+## Publishing package
+We have a GitHub workflow for doing this. Bump the `package.json` to the desired version, then create a release on GitHub, which will trigger the workflow for you.
+
+Note: the NPM token is set in the [https://github.com/cph-cachet/eslint-config/settings/secrets/actions](GitHub secrets section) and has an expiry date, after which a new token needs to be created and updated.
+
 ## Usage
 In your `.eslintrc.js` file, extend our config:
 
