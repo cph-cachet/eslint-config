@@ -30,13 +30,13 @@ module.exports = {
 
 Make a `.prettierrc.js` file:
 ```js
-module.exports = {
-  trailingComma: 'es5',
-  tabWidth: 2,
-  semi: true,
-  singleQuote: true,
-  plugins: ['prettier-plugin-organize-imports'],
-};
+export default [{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "plugins": [import.meta.resolve('prettier-plugin-organize-imports')]
+}]
 ```
 
 ## ESLint Rules Explanation
