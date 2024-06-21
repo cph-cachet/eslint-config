@@ -7,7 +7,7 @@ This is our ESLint config used across our frontend JavaScript and TypeScript pro
 To install this package, run the following command:
 
 ```sh
-bun i -D @carp-dk/eslint-config prettier-eslint
+bun i -D @carp-dk/eslint-config
 ```
 
 ## Publishing package
